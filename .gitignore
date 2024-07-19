@@ -1,24 +1,20 @@
-# Node.js
-node_modules/
-npm-debug.log
-yarn-error.log
+# Ignore compiled binaries
+*.o
+*.out
 
-# Build output
-dist/
+# Ignore temporary files
+*~
 
-# Environment variables
-.env
-
-# Editor/IDE specific files
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Logs
-logs/
+# Ignore logs
 *.log
 
-# Dependency lock files
-package-lock.json
-yarn.lock
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific files
+.profile
+.bash_history
+
+# Ignore environment-specific files
+.env
